@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="contact.css">
+
+
+</head>
+
+<body>
+  <!-------Header------->
+
+  <header class="nav_bar">
+    <div class="camera_album">
+      <i class="fa fa-camera" id="camera"></i>
+      <p class="album">Album</p>
+    </div>
+    <div class="hamburger_menu">
+      <i class="fa fa-bars" id="hamburger-menu"></i>
+    </div>
+  </header>
+
+  <div class="container">
+    <form action="/action_page.php">
+      <div class="main-container">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" class="contact-container" placeholder="Enter name">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" class="contact-container" placeholder="Enter email">
+
+        <label for="subject">Subject</label>
+        <input type="text" name="subject" id="subject" class="contact-container" placeholder="Enter subject">
+      </div>
+      <div class="message">
+        <label for="message">Message</label>
+        <textarea name="message" id="message" class="contact-container" placeholder="Enter message"></textarea>
+      </div>
+    </form>
+    <button class="btn_message">Send Message</button>
+  </div>
+  </div>
+
+  <footer class="footer">
+    <h2 class="footer-title">Or find us on social media</h2>
+
+    <a href="#" class="fa fa-facebook" id=""></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-instagram"></a>
+
+  </footer>
+
+</body>
+
+</html>
